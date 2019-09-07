@@ -1,0 +1,46 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.aboutMe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  height: 60%;
+  background-color: #004F53;
+  border-radius: 300px;
+  z-index: 20;
+  padding: 2em;
+  color: #B4FCFF;
+  overflow-y: auto;
+  -webkit-box-shadow: 3px 0px 7px rgba(29, 29, 27, 0.6);
+          box-shadow: 3px 0px 7px rgba(29, 29, 27, 0.6);
+}
+
+.aboutMe h1 {
+  color: #12F5FE;
+  font-size: 200%;
+}
+
+.aboutMe p {
+  width: 75%;
+  max-height: 80%;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.aboutMe p strong {
+  color: #12F5FE;
+}
+/*# sourceMappingURL=abotMe.css.map */

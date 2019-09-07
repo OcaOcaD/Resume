@@ -1,0 +1,27 @@
+@import "../vars";
+.aboutMe{
+    @include flexCenter( column );
+    width: 60%;
+    height: 60%;
+    background-color: $db;
+    border-radius: 300px;
+    z-index: 20;
+    padding: 2em;
+    color: $lb;
+    overflow-y: auto;
+    box-shadow:  3px 0px 7px rgba($color: $g, $alpha: 0.6);
+    h1{
+        // align-self: flex-start;
+        color: $b;
+        font-size: 200%;
+    }
+    p{
+        width: 75%;
+        max-height: 80%;
+        font-size: 18px;
+        text-align: justify;    
+        strong{
+            color: $b;
+        }
+    }
+}

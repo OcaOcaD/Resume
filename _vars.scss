@@ -1,0 +1,22 @@
+$lb: #B4FCFF;
+$b : #12F5FE;
+$db: #004F53;
+$g : #1d1d1b;
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+@mixin coverDiv(){
+    width: 100%;
+    height: 100%;
+}
+@mixin noMorp {
+    margin : 0;
+    padding: 0;
+}
+@mixin flexCenter( $direction ) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+}
