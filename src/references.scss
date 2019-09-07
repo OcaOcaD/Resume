@@ -1,0 +1,43 @@
+@import "../vars";
+.last{
+    margin-bottom: 0 !important;
+}
+.refContainer{
+    @include flexCenter( column );
+    width: 100%;
+    height: 100%;
+    h1{
+        font-size: 60px;
+        color: $b;
+    }
+}
+.references{
+    @include flexCenter( row );
+    justify-content: space-evenly;
+    width: 85%;
+    .ref{
+        width: 40% !important;
+        h3{
+            color: $lb;
+            font-weight: 400;
+            @include flexCenter( row );
+            i{
+                padding-right: 1em;
+            }
+        }
+    }
+    .esteban{
+        background-color: $db;
+        background: url( ../src/esteban.jpg );
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .edgar{
+        background-color: $db;
+        background: url( ../src/edgar.jpg );
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

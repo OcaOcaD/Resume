@@ -32,6 +32,7 @@ html body {
   height: 100vh;
   width: 100vw;
   z-index: 20;
+  margin-bottom: 200px;
 }
 
 .nav {
@@ -115,6 +116,18 @@ html body {
   background-color: #1d1d1b;
   -webkit-box-shadow: 3px 0px 7px rgba(29, 29, 27, 0.6);
           box-shadow: 3px 0px 7px rgba(29, 29, 27, 0.6);
+  cursor: pointer;
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+.nav .options .option:hover {
+  color: #12F5FE;
+}
+
+.nav .options .option a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .nav .options .mainO {
@@ -196,12 +209,18 @@ html body {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   color: #12F5FE;
-  z-index: 20;
+  z-index: 1;
 }
 
 .knowme h3 {
   font-size: 15px;
   margin-bottom: 5px;
+}
+
+.knowme h3 a {
+  font-size: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .knowme:hover {

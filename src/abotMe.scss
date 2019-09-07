@@ -5,7 +5,7 @@
     height: 60%;
     background-color: $db;
     border-radius: 300px;
-    z-index: 20;
+    z-index: 10;
     padding: 2em;
     color: $lb;
     overflow-y: auto;
@@ -16,12 +16,21 @@
         font-size: 200%;
     }
     p{
-        width: 75%;
+        width: 80%;
         max-height: 80%;
-        font-size: 18px;
+        font-size: 16px;
         text-align: justify;    
         strong{
             color: $b;
+        }
+    }
+    .l{
+        @include flexCenter( row );
+        justify-self: center;
+        width: 80%;
+        justify-content: space-evenly;
+        p{
+            width: 100px;
         }
     }
 }

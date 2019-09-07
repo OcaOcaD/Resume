@@ -1,0 +1,21 @@
+@import "../vars";
+.resume{
+    @include flexCenter(column);
+    // justify-content: flex-start;
+    align-items: flex-start;
+    background-color: $lb;
+    color: $db;
+    width: 70%;
+    padding: 4em;
+    img{
+        max-height: 150px;
+        max-width: auto;
+        filter: grayscale(100%);
+        margin-right: 2em;
+    }
+    p{
+        text-align: justify;
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+}

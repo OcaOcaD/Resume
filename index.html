@@ -5,18 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./src/social.css">
     <link rel="stylesheet" href="./src/abotMe.css">
-    <link rel="stylesheet" href="./src/fontAwesome_css./all.css">
+    <link rel="stylesheet" href="./src/portfolio.css">
+    <link rel="stylesheet" href="./src/resume.css">
+    <link rel="stylesheet" href="./src/references.css">
+    <link rel="stylesheet" href="./src/fontAwesome_css/all.css">
     <title>Document</title>
 </head>
 <body>
     <div class="nav">
         <ul class="options">
-            <li class="mainO option">Portfolio</li>
-            <li class="option">About me</li>
-            <li class="option">Tools</li>
-            <li class="option">Experience</li>
-            <li class="option">References</li>
+            <li class="mainO option"><a href="#portfolio"> Portfolio </a></li>
+            <li class="option"><a href="#aboutMe"> About me </a></li>
+            <li class="option"><a href="#resume"> Resume </a></li>
+            <li class="option"><a href="#references"> References </a></li>
+        </ul>
+    </div>
+    <div class="social">
+        <ul class="networks">
+            <li class="somenet">
+                <a href="https://wa.me/3334610984">
+                    <i class="fab fa-whatsapp fa-4x"></i>
+                </a>
+            </li>
+            <li class="somenet">
+                <a href="https://www.facebook.com/OcaDonas">
+                    <i class="fab fa-facebook-f fa-4x"></i>
+                </a>
+            </li>
+            <li class="somenet">
+                <a href="https://www.instagram.com/donaldo.g.c/">
+                    <i class="fab fa-instagram fa-4x"></i>
+                </a>
+            </li>
         </ul>
     </div>
     <section id="main" class="page">
@@ -26,7 +48,7 @@
             <h1 class="title_">WEB DEVELOPER</h1>
         </div>
         <div class="knowme">
-            <h3>Know me</h3>
+            <h3><a href="#aboutMe"> Know me </a></h3>
             <i class="fas fa-sort-down fa-2x"></i>
         </div>
     </section>
@@ -40,41 +62,85 @@
             <p>My name is Donaldo and I love developing web pages and applications. </p>
             <p>Every project I work on is very important, so I give the best of myself in every step. From designing, developing, debugging, adding cool features, caring about user experience and over all, I try to be a person whom you can trust for improvements, new ideas and later projects.</p>
             <p>The most important thing is <strong>YOUR</strong> business.</p>
+            <h2>About languages...</h2>
+            <p>It is hard to tell a percentage, but I can  hold a normal flui conversation in both English and spanish.</p>
+            <div class="l">
+                <p>Englsh: 85%;</p>
+                <p>Español: 98%;</p>
+            </div>
         </div>
     </section>
-    <section id="Portfolio">
+    <section id="portfolio" class="page">
         <div class="portfolio">
-            <div class="p_tab">Portfolio web</div>
+            <div class="p_tab"><p>Portfolio</p>
+                <div class="p_type">
+                    <p>web</p>
+                </div>
+            </div>
             <div class="p_body">
                 <div class="row">
                     <div class="project">
-                        <img src="" alt="">
-                        <label for="">Estancia 25</label>
+                        <img src="./src/projects/estancia25.jpg" alt="">
+                        <a href="estancia25arquitectos.com" ><label for="">Estancia 25</label><i class="fas fa-check-circle"></i></a>
                     </div>
                     <div class="project">
-                        <img src="" alt="">
-                        <label for="">GDL BIKE TOURS</label>
+                        <img src="./src/projects/biketour.jpg" alt="">
+                        <a href="gdlbiketours.com/nueva" ><label for="">GDL BIKE TOURS</label><i class="fas fa-tools"></i></a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="project">
-                        <img src="" alt="">
-                        <label for="">DUCERE</label>
+                        <img src="./src/projects/ducere.jpg" alt="">
+                        <a href="" ><label for="">DUCERE</label><i class="fas fa-check-circle"></i></a>
                     </div>
                     <div class="project">
-                        <img src="" alt="">
-                        <label for="">INTECO</label>
+                        <img src="./src/projects/inteco.jpg" alt="">
+                        <a href="" ><label for="">INTECO</label><i class="fas fa-check-circle"></i></a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="project">
-                        <img src="" alt="">
-                        <label for="">Boneteria la R comercial</label>
+                        <img src="./src/projects/boneteria.png" alt="">
+                        <a href=" # " ><label for="">Boneteria la R comercial</label><i class="fas fa-tools"></i></a>
                     </div>
                     <div class="project">
-                        <img src="" alt="">
-                        <label for="">Web socket</label>
+                        <img src="./src/projects/socket.jpg" alt="">
+                        <a href=" # " ><label for="">Socket game</label><i class="fas fa-tools"></i></a>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="page">
+            <i class="fas fa-ellipsis-h fa-4x"></i>
+    </section> -->
+    <section id="resume" class="page">
+        <div class="resume">
+            <h1>My resume</h1>
+            <p><img src="./src/yo.jpg" alt="" align="left">My name is Luis Donaldo and I am from Mexico city. I graduated from <strong>CETI Colomos</strong> as <i>Tecnólogo en Informática y computación</i> by doing a web application for foreign buses wich helps you find the bus station, the bus platform and helps you alerts your family/friends if you just got on or off the bus. That is where I really got into the web development. 
+                <br><br>Through out all the highschool I was teach some basic data structures and algorithmia, as well as the basics of some languages as C, C++, C# and assembler. Also SQL databases and basic html, css, basic javascript and such, basic web tools.</p>
+            <p>But in order to set up my graduiation project, I got into PHP, learnt about MVC, asynchronous requests to dabases with AJAX, some front end tools like materialze and bootstrap.</p>
+            <br>
+            <p>Right after graduate I got my first job as a web developer at a local company called <strong>INTECO</strong>. I worked with an opensource CRM called <i>VTIGER</i> developing new features as employee rankings, schedule and notify events to employees, adding ticket's options. I also built their website.</p>
+            <br>
+            <p>Then I got into the college <strong>CUCEI</strong> where I am currently studying <i>Ingeniería en Informática</i>. 
+                <br>While being here I've got some personal web projects for small business and a little later I also got another job as web developer at <strong>ISySC</strong> for 7 months. In this years I've use and learnt more about PHP, javascript with Node.js and CSS with SASS. Have done some personal and for work projects using: laravell, a lot of javascript libraries including jquery, p5.js, mapael.js, React.js, socket.io, express.js. Also I really like front end now days so I learnt to use AdobeXD for designing brefore coding and SASS for helping my css be smaller and browser compatible.</p>
+            <p>Now days I left my last job to get time to deepen my knowledge of algorithms and data structures and not just stick with web development. I love learning the new tecnologies.</p>
+        </div>
+    </section>
+    <section id="references" class="page last">
+        <div class="refContainer">
+            <h1>References</h1>
+            <div class="references">
+                <div class="main ref">
+                    <div class="photo esteban"></div>
+                    <h2 class="name">Ing. Esteban Ignacio Moreno Soto</h2>
+                    <h3><i class="fab fa-whatsapp fa-2x"></i> 33 1268 5617</h3>
+                </div>
+                <div class="main ref">
+                    <div class="photo edgar"></div>
+                    <h2 class="name">Ing. Edgar Valle</h2>
+                    <h3><i class="fab fa-whatsapp fa-2x"></i> 33 1048 3254</h3>
                 </div>
             </div>
         </div>

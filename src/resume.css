@@ -1,0 +1,41 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.resume {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #B4FCFF;
+  color: #004F53;
+  width: 70%;
+  padding: 4em;
+}
+
+.resume img {
+  max-height: 150px;
+  max-width: auto;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  margin-right: 2em;
+}
+
+.resume p {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+/*# sourceMappingURL=resume.css.map */
