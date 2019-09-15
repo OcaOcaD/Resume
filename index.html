@@ -11,17 +11,24 @@
     <link rel="stylesheet" href="./src/resume.css">
     <link rel="stylesheet" href="./src/references.css">
     <link rel="stylesheet" href="./src/fontAwesome_css/all.css">
-    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Donaldo resume </title>
 </head>
 <body>
-    <div class="nav">
-        <ul class="options">
-            <li class="mainO option"><a href="#portfolio"> Portfolio </a></li>
-            <li class="option"><a href="#aboutMe"> About me </a></li>
-            <li class="option"><a href="#resume"> Resume </a></li>
-            <li class="option"><a href="#references"> References </a></li>
-        </ul>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-donaldo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-hamburger"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="options navbar-nav">
+                <li class="mainO option nav-item"><a class="nav-link" href="#portfolio"> Portfolio </a></li>
+                <li class="option nav-item"><a class="nav-link" href="#aboutMe"> About me </a></li>
+                <li class="option nav-item"><a class="nav-link" href="#resume"> Resume </a></li>
+                <li class="option nav-item"><a class="nav-link" href="#references"> References </a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="social">
         <ul class="networks">
             <li class="somenet">
@@ -79,31 +86,31 @@
             </div>
             <div class="p_body">
                 <div class="row">
-                    <div class="project">
+                    <div class="project col-sm-12 col-xs-12 col-md-6">
                         <img src="./src/projects/estancia25.jpg" alt="">
                         <a href="estancia25arquitectos.com" ><label for="">Estancia 25</label><i class="fas fa-check-circle"></i></a>
                     </div>
-                    <div class="project">
+                    <div class="project col-sm-12 col-xs-12 col-md-6">
                         <img src="./src/projects/biketour.jpg" alt="">
                         <a href="gdlbiketours.com/nueva" ><label for="">GDL BIKE TOURS</label><i class="fas fa-tools"></i></a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="project">
+                    <div class="project col-sm-12 col-xs-12 col-md-6">
                         <img src="./src/projects/ducere.jpg" alt="">
                         <a href="" ><label for="">DUCERE</label><i class="fas fa-check-circle"></i></a>
                     </div>
-                    <div class="project">
+                    <div class="project col-sm-12 col-xs-12 col-md-6">
                         <img src="./src/projects/inteco.jpg" alt="">
                         <a href="" ><label for="">INTECO</label><i class="fas fa-check-circle"></i></a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="project">
+                    <div class="project col-sm-12 col-xs-12 col-md-6">
                         <img src="./src/projects/boneteria.png" alt="">
                         <a href=" # " ><label for="">Boneteria la R comercial</label><i class="fas fa-tools"></i></a>
                     </div>
-                    <div class="project">
+                    <div class="project col-sm-12 col-xs-12 col-md-6">
                         <img src="./src/projects/socket.jpg" alt="">
                         <a href=" # " ><label for="">Socket game</label><i class="fas fa-tools"></i></a>
                     </div>
@@ -128,16 +135,16 @@
             <p>Now days I left my last job to get time to deepen my knowledge of algorithms and data structures and not just stick with web development. I love learning the new tecnologies.</p>
         </div>
     </section>
-    <section id="references" class="page last">
-        <div class="refContainer">
+    <section id="references" class="page last row">
+        <div class="refContainer col-sm-12">
             <h1>References</h1>
-            <div class="references">
-                <div class="main ref">
+            <div class="references row">
+                <div class="main ref col-sm-12 col-md-6">
                     <div class="photo esteban"></div>
                     <h2 class="name">Ing. Esteban Ignacio Moreno Soto</h2>
                     <h3><i class="fab fa-whatsapp fa-2x"></i> 33 1268 5617</h3>
                 </div>
-                <div class="main ref">
+                <div class="main ref col-sm-12 col-md-6">
                     <div class="photo edgar"></div>
                     <h2 class="name">Ing. Edgar Valle</h2>
                     <h3><i class="fab fa-whatsapp fa-2x"></i> 33 1048 3254</h3>
@@ -145,5 +152,10 @@
             </div>
         </div>
     </section>
+    <!--  -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--  -->
 </body>
 </html>

@@ -54,15 +54,16 @@
         z-index: 20;
         // transform: rotateX(20);
         .row{
-            @include flexCenter( row );
-            height: 300px;
+            // @include flexCenter( row );
+            // height: 300px;
             width: 90%;
             .project{
                 @include flexCenter( column );
-                width: 50%;
-                height: 100%;
+                // width: 50%;
+                // height: 100%;
                 img{
                     max-height: 240px;
+                    max-width: 80%;
                     width: auto;
                 }
                 a{

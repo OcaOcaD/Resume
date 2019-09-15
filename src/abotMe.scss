@@ -1,8 +1,10 @@
 @import "../vars";
 .aboutMe{
     @include flexCenter( column );
-    width: 60%;
-    height: 60%;
+    width: 1200px;
+    max-width: 85%;
+
+    // height: 60%;
     background-color: $db;
     border-radius: 300px;
     z-index: 10;

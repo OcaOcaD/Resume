@@ -112,20 +112,6 @@
 }
 
 .portfolio .p_body .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 300px;
   width: 90%;
 }
 
@@ -143,12 +129,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 50%;
-  height: 100%;
 }
 
 .portfolio .p_body .row .project img {
   max-height: 240px;
+  max-width: 80%;
   width: auto;
 }
 

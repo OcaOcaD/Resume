@@ -29,64 +29,52 @@ html body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   z-index: 20;
   margin-bottom: 200px;
 }
 
-.nav {
-  position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 150px;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  background: transparent;
-  z-index: 20;
+.bg-donaldo {
+  background-color: transparent !important;
 }
 
-.nav .options {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+.navbar-light .navbar-toggler {
+  background: #1d1d1b;
+  color: #12F5FE;
+  height: 40px;
+  width: 40px;
+  padding: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.navbar-light .navbar-toggler i {
+  color: #12F5FE;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #B4FCFF !important;
+  height: 40px;
+  font-size: 110%;
+}
+
+.options {
   margin: 0;
   padding: 0;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   width: 85%;
-  height: 100%;
   background: inherit;
   list-style: none;
 }
 
-.nav .options .option {
+.options .option {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -102,18 +90,13 @@ html body {
           align-items: center;
   margin: 0;
   padding: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 50%;
   padding: 0.5em 2em 0.5em 2em;
-  height: 40%;
   min-height: auto;
   border-radius: 50px;
+  background-color: #1d1d1b;
   color: #B4FCFF;
   list-style: none;
-  font-size: 20px;
-  background-color: #1d1d1b;
+  font-size: 100%;
   -webkit-box-shadow: 3px 0px 7px rgba(29, 29, 27, 0.6);
           box-shadow: 3px 0px 7px rgba(29, 29, 27, 0.6);
   cursor: pointer;
@@ -121,16 +104,16 @@ html body {
   transition: color 0.3s ease-out;
 }
 
-.nav .options .option:hover {
+.options .option:hover {
   color: #12F5FE;
 }
 
-.nav .options .option a {
+.options .option a {
   text-decoration: none;
   color: inherit;
 }
 
-.nav .options .mainO {
+.options .mainO {
   color: #12F5FE;
   background-color: #004F53;
 }
@@ -171,6 +154,7 @@ html body {
   margin: 0;
   padding: 0;
   width: 330px;
+  max-width: 90%;
   height: 330px;
   background: url("./src/selfie.jpg");
   background-position: top;
