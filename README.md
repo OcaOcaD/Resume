@@ -1,2 +1,3 @@
-# Resume
-VERY VERY basic just html and css resume
+# My 2019 portfolio/resume
+
+Just HTML and CSS
